@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E0C211A1EB317E700D94DAE /* BezierPathView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E0C21141EB317E700D94DAE /* BezierPathView.m */; };
+		2E0C211B1EB317E700D94DAE /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E0C21171EB317E700D94DAE /* MainViewController.m */; };
+		2E0C211C1EB317E700D94DAE /* SelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E0C21191EB317E700D94DAE /* SelectViewController.m */; };
+		2E0C211F1EB3181E00D94DAE /* typeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E0C211E1EB3181E00D94DAE /* typeModel.m */; };
 		2E6E66BD1EB1C74100D09F19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E6E66BC1EB1C74100D09F19 /* main.m */; };
-		2E6E66C01EB1C74100D09F19 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E6E66BF1EB1C74100D09F19 /* AppDelegate.m */; };
-		2E6E66C31EB1C74100D09F19 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E6E66C21EB1C74100D09F19 /* ViewController.m */; };
-		2E6E66C61EB1C74100D09F19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E6E66C41EB1C74100D09F19 /* Main.storyboard */; };
 		2E6E66C81EB1C74100D09F19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E6E66C71EB1C74100D09F19 /* Assets.xcassets */; };
 		2E6E66CB1EB1C74100D09F19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E6E66C91EB1C74100D09F19 /* LaunchScreen.storyboard */; };
 		2E6E66D61EB1C74100D09F19 /* UIBezierPath_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E6E66D51EB1C74100D09F19 /* UIBezierPath_____Tests.m */; };
 		2E6E66E11EB1C74100D09F19 /* UIBezierPath_____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E6E66E01EB1C74100D09F19 /* UIBezierPath_____UITests.m */; };
+		2E6E66FA1EB1D71200D09F19 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E6E66F91EB1D71200D09F19 /* AppDelegate.m */; };
+		7B227E97D467DB6967B9DE91 /* libPods-UIBezierPath贝塞尔曲线.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39F22081D27D51AB754814DD /* libPods-UIBezierPath贝塞尔曲线.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,22 +38,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E0C21081EB2EC3600D94DAE /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		2E0C210B1EB2EC5200D94DAE /* UIBezierPath的使用.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath的使用.h"; sourceTree = "<group>"; };
+		2E0C210C1EB2EC7B00D94DAE /* UIBezierPath官方译文.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath官方译文.h"; sourceTree = "<group>"; };
+		2E0C21131EB317E700D94DAE /* BezierPathView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierPathView.h; sourceTree = "<group>"; };
+		2E0C21141EB317E700D94DAE /* BezierPathView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierPathView.m; sourceTree = "<group>"; };
+		2E0C21161EB317E700D94DAE /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		2E0C21171EB317E700D94DAE /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		2E0C21181EB317E700D94DAE /* SelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectViewController.h; sourceTree = "<group>"; };
+		2E0C21191EB317E700D94DAE /* SelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectViewController.m; sourceTree = "<group>"; };
+		2E0C211D1EB3181E00D94DAE /* typeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = typeModel.h; sourceTree = "<group>"; };
+		2E0C211E1EB3181E00D94DAE /* typeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = typeModel.m; sourceTree = "<group>"; };
 		2E6E66B81EB1C74100D09F19 /* UIBezierPath贝塞尔曲线.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIBezierPath贝塞尔曲线.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E6E66BC1EB1C74100D09F19 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2E6E66BE1EB1C74100D09F19 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		2E6E66BF1EB1C74100D09F19 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2E6E66C11EB1C74100D09F19 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2E6E66C21EB1C74100D09F19 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		2E6E66C51EB1C74100D09F19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2E6E66C71EB1C74100D09F19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E6E66C71EB1C74100D09F19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		2E6E66CA1EB1C74100D09F19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		2E6E66CC1EB1C74100D09F19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E6E66CC1EB1C74100D09F19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 		2E6E66D11EB1C74100D09F19 /* UIBezierPath贝塞尔曲线Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIBezierPath贝塞尔曲线Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E6E66D51EB1C74100D09F19 /* UIBezierPath_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath_____Tests.m"; sourceTree = "<group>"; };
 		2E6E66D71EB1C74100D09F19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E6E66DC1EB1C74100D09F19 /* UIBezierPath贝塞尔曲线UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIBezierPath贝塞尔曲线UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E6E66E01EB1C74100D09F19 /* UIBezierPath_____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath_____UITests.m"; sourceTree = "<group>"; };
 		2E6E66E21EB1C74100D09F19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E6E66F71EB1D6F500D09F19 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		2E6E66F81EB1D71200D09F19 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2E6E66F91EB1D71200D09F19 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		39F22081D27D51AB754814DD /* libPods-UIBezierPath贝塞尔曲线.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UIBezierPath贝塞尔曲线.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA4BE4137CC00473D68470BE /* Pods-UIBezierPath贝塞尔曲线.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIBezierPath贝塞尔曲线.release.xcconfig"; path = "Pods/Target Support Files/Pods-UIBezierPath贝塞尔曲线/Pods-UIBezierPath贝塞尔曲线.release.xcconfig"; sourceTree = "<group>"; };
+		FB74B0EFB3BE24A305B6BCBC /* Pods-UIBezierPath贝塞尔曲线.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIBezierPath贝塞尔曲线.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UIBezierPath贝塞尔曲线/Pods-UIBezierPath贝塞尔曲线.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B227E97D467DB6967B9DE91 /* libPods-UIBezierPath贝塞尔曲线.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +94,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E0C210A1EB2EC5200D94DAE /* UIBezierPath笔记 */ = {
+			isa = PBXGroup;
+			children = (
+				2E0C210C1EB2EC7B00D94DAE /* UIBezierPath官方译文.h */,
+				2E0C210B1EB2EC5200D94DAE /* UIBezierPath的使用.h */,
+			);
+			path = "UIBezierPath笔记";
+			sourceTree = "<group>";
+		};
+		2E0C21111EB317E700D94DAE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2E0C211D1EB3181E00D94DAE /* typeModel.h */,
+				2E0C211E1EB3181E00D94DAE /* typeModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2E0C21121EB317E700D94DAE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2E0C21131EB317E700D94DAE /* BezierPathView.h */,
+				2E0C21141EB317E700D94DAE /* BezierPathView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2E0C21151EB317E700D94DAE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2E0C21161EB317E700D94DAE /* MainViewController.h */,
+				2E0C21171EB317E700D94DAE /* MainViewController.m */,
+				2E0C21181EB317E700D94DAE /* SelectViewController.h */,
+				2E0C21191EB317E700D94DAE /* SelectViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		2E6E66AF1EB1C74100D09F19 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +139,8 @@
 				2E6E66D41EB1C74100D09F19 /* UIBezierPath贝塞尔曲线Tests */,
 				2E6E66DF1EB1C74100D09F19 /* UIBezierPath贝塞尔曲线UITests */,
 				2E6E66B91EB1C74100D09F19 /* Products */,
+				3D0CD2910A06613B88808436 /* Pods */,
+				40CCFEBCECC2BE600D3BEB73 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +157,9 @@
 		2E6E66BA1EB1C74100D09F19 /* UIBezierPath贝塞尔曲线 */ = {
 			isa = PBXGroup;
 			children = (
-				2E6E66BE1EB1C74100D09F19 /* AppDelegate.h */,
-				2E6E66BF1EB1C74100D09F19 /* AppDelegate.m */,
-				2E6E66C11EB1C74100D09F19 /* ViewController.h */,
-				2E6E66C21EB1C74100D09F19 /* ViewController.m */,
-				2E6E66C41EB1C74100D09F19 /* Main.storyboard */,
-				2E6E66C71EB1C74100D09F19 /* Assets.xcassets */,
-				2E6E66C91EB1C74100D09F19 /* LaunchScreen.storyboard */,
-				2E6E66CC1EB1C74100D09F19 /* Info.plist */,
+				2E0C210A1EB2EC5200D94DAE /* UIBezierPath笔记 */,
+				2E6E66F51EB1D6F500D09F19 /* Other */,
+				2E6E66FB1EB1D74F00D09F19 /* Main */,
 				2E6E66BB1EB1C74100D09F19 /* Supporting Files */,
 			);
 			path = "UIBezierPath贝塞尔曲线";
@@ -140,6 +191,47 @@
 			path = "UIBezierPath贝塞尔曲线UITests";
 			sourceTree = "<group>";
 		};
+		2E6E66F51EB1D6F500D09F19 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				2E6E66F81EB1D71200D09F19 /* AppDelegate.h */,
+				2E6E66F91EB1D71200D09F19 /* AppDelegate.m */,
+				2E6E66C71EB1C74100D09F19 /* Assets.xcassets */,
+				2E6E66C91EB1C74100D09F19 /* LaunchScreen.storyboard */,
+				2E6E66CC1EB1C74100D09F19 /* Info.plist */,
+				2E0C21081EB2EC3600D94DAE /* Header.h */,
+				2E6E66F71EB1D6F500D09F19 /* PrefixHeader.pch */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		2E6E66FB1EB1D74F00D09F19 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2E0C21111EB317E700D94DAE /* Model */,
+				2E0C21121EB317E700D94DAE /* View */,
+				2E0C21151EB317E700D94DAE /* Controller */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		3D0CD2910A06613B88808436 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB74B0EFB3BE24A305B6BCBC /* Pods-UIBezierPath贝塞尔曲线.debug.xcconfig */,
+				FA4BE4137CC00473D68470BE /* Pods-UIBezierPath贝塞尔曲线.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		40CCFEBCECC2BE600D3BEB73 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39F22081D27D51AB754814DD /* libPods-UIBezierPath贝塞尔曲线.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +239,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2E6E66E51EB1C74100D09F19 /* Build configuration list for PBXNativeTarget "UIBezierPath贝塞尔曲线" */;
 			buildPhases = (
+				0E4E1028886FAEF9A83DFD1B /* [CP] Check Pods Manifest.lock */,
 				2E6E66B41EB1C74100D09F19 /* Sources */,
 				2E6E66B51EB1C74100D09F19 /* Frameworks */,
 				2E6E66B61EB1C74100D09F19 /* Resources */,
+				FE69D0D898DB308732C07EC0 /* [CP] Embed Pods Frameworks */,
+				564DD881A6FBAF8D5B285CFF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -248,7 +343,6 @@
 			files = (
 				2E6E66CB1EB1C74100D09F19 /* LaunchScreen.storyboard in Resources */,
 				2E6E66C81EB1C74100D09F19 /* Assets.xcassets in Resources */,
-				2E6E66C61EB1C74100D09F19 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,14 +362,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0E4E1028886FAEF9A83DFD1B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		564DD881A6FBAF8D5B285CFF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UIBezierPath贝塞尔曲线/Pods-UIBezierPath贝塞尔曲线-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE69D0D898DB308732C07EC0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UIBezierPath贝塞尔曲线/Pods-UIBezierPath贝塞尔曲线-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2E6E66B41EB1C74100D09F19 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E6E66C31EB1C74100D09F19 /* ViewController.m in Sources */,
-				2E6E66C01EB1C74100D09F19 /* AppDelegate.m in Sources */,
 				2E6E66BD1EB1C74100D09F19 /* main.m in Sources */,
+				2E0C211F1EB3181E00D94DAE /* typeModel.m in Sources */,
+				2E0C211A1EB317E700D94DAE /* BezierPathView.m in Sources */,
+				2E6E66FA1EB1D71200D09F19 /* AppDelegate.m in Sources */,
+				2E0C211C1EB317E700D94DAE /* SelectViewController.m in Sources */,
+				2E0C211B1EB317E700D94DAE /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,20 +456,13 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2E6E66C41EB1C74100D09F19 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2E6E66C51EB1C74100D09F19 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2E6E66C91EB1C74100D09F19 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				2E6E66CA1EB1C74100D09F19 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -420,9 +558,13 @@
 		};
 		2E6E66E61EB1C74100D09F19 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB74B0EFB3BE24A305B6BCBC /* Pods-UIBezierPath贝塞尔曲线.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIBezierPath贝塞尔曲线/Other/PrefixHeader.pch";
 				INFOPLIST_FILE = "UIBezierPath贝塞尔曲线/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.test.UIBezierPath-----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -431,9 +573,13 @@
 		};
 		2E6E66E71EB1C74100D09F19 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA4BE4137CC00473D68470BE /* Pods-UIBezierPath贝塞尔曲线.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIBezierPath贝塞尔曲线/Other/PrefixHeader.pch";
 				INFOPLIST_FILE = "UIBezierPath贝塞尔曲线/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.test.UIBezierPath-----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,6 +651,7 @@
 				2E6E66E71EB1C74100D09F19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E6E66E81EB1C74100D09F19 /* Build configuration list for PBXNativeTarget "UIBezierPath贝塞尔曲线Tests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +660,7 @@
 				2E6E66EA1EB1C74100D09F19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E6E66EB1EB1C74100D09F19 /* Build configuration list for PBXNativeTarget "UIBezierPath贝塞尔曲线UITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +669,7 @@
 				2E6E66ED1EB1C74100D09F19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
